@@ -21,7 +21,7 @@ class Show < ActiveRecord::Base
   end 
   
   def self.popular_shows
-    Show.all.
+    Show.all.where()
   end 
   
 end 
